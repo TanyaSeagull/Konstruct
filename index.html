@@ -1,22 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css/style.css">
-    
-    <title>Konstruct</title>
-</head>
-<body>
-    <header class="header">
-        <section class="header__title">
-            <img src="img/logo_white.svg" alt="logo" class="header__logo">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css"> 
+        <title>Konstruct</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <section class="header__title">
+                    <img src="img/logo_white.svg" alt="logo" class="header__logo">
+                </section>
+                <h1 class="header__h1">PARTNER WITH KONSTRUCT</h1>
+                <p class="header__p header__p--bold">An award-winning construction management firm</p>
+                <p class="header__p header__p--light">Scroll down</p>
+            </div>
+        </header>
+        <section class="navbar">
+            <div class="container">
+                <div class="navbar__flex">
+                    <img class="navbar_logo" src="img/logo_black.svg" alt="logo">
+                    <div class="navbar_menu">
+                        <ul class="navbar_menu_flex">
+                            <a class="navbar_menu-item" href="#"><li>Home</li></a>
+                            <a class="navbar_menu-item" href="#"><li>About</li></a>
+                            <a class="navbar_menu-item" href="#"><li>Services</li></a>
+                            <a class="navbar_menu-item" href="#"><li>Work</li></a>
+                            <a class="navbar_menu-item" href="#"><li>Contact</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
-        <h1 class="header__h1">PARTNER WITH KONSTRUCT</h1>
-        <p class="header__p">An award-winning construction management firm</p>
-        <p class="header__p">Scroll down</p>
-    </header>
-</body>
+        <section class="about">
+            <div class="container">
+                <div class="about__story">
+                    <h2 class="h2__about">Our story</h2>
+                    <div class="line about-line"></div>
+                    <div class="about__story_flex">
+                        <div class="about__story_flex-text">
+                            <h3 class="h3__about">Founded in 2011 by John Mathew Smith, <span class="h3_about-color">Konstruct</span> has become the number one construction management firm</h3>
+                            <p class="about_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                        </div>
+                        <div class="about__story_flex-img">
+                            <div class="about__story_flex-img-item">We<br>plan</div>
+                            <div class="about__story_flex-img-item">We manage</div>
+                            <div class="about__story_flex-img-item">We<br>build</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
