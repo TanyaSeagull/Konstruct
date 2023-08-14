@@ -1,6 +1,8 @@
 .navbar {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 23px 0 20px 0;
+    border: 1px solid $color-light-grey;
 
     &__flex {
         display: flex;
@@ -29,7 +31,9 @@
         text-transform: uppercase;
         font-weight: 600;
         letter-spacing: 1.091px;
+    }
 
-        
+    &__menu-item--active {
+        color: $color-dark-blue;
     }
 }

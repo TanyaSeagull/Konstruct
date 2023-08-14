@@ -1,0 +1,44 @@
+.about {
+    margin: 0 auto;
+    max-width: 1440px;
+
+    &__story {
+        margin: 59px auto 119px;
+    }
+
+    &__headline {
+        text-align: center;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 2.306px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #48555B;
+    }
+
+    &__line {
+        margin: 12px auto 55px;
+    }
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        max-width: 405.08px;
+    }
+
+    &__right {
+        display: grid;
+        grid-template-columns: repeat(3, 140px);
+        gap: 20px;
+        padding-top: 29px;
+    }
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+}
