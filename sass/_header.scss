@@ -6,36 +6,56 @@
     width: 1440px;
     height: 768px;
     margin: 0 auto;
+    padding-bottom: 71px;
+    padding-top: 41px;
 
     &__logo {
         display: block;
         width: 101.618px;
         height: 23px;
         margin: 0 auto;
-        margin-bottom: 308px;
-        
+        margin-bottom: 308px;       
     }
 
     &__h1 {
         color: $color-primary;
         font-family: 'Bebas Neue';
         font-weight: 400;
-        font-size: 60px;
+        font-size: 50px;
         line-height: 70px;
         text-align: center;
         letter-spacing: 5.70937px;
         text-transform: uppercase;
         margin: 0 173px 0 185px;
     }
+
+    &__p--bold {
+        color: $color-primary;
+        text-align: center;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 600;
+        margin: 0 auto 223px;
+    }
     
+    &__link {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    &__link-text {
+        color: $color-primary;
+        text-align: center;
+        font-size: 11px;
+        line-height: 13px;
+        padding-bottom: 72px;
+    }
 }
 
 .container {      
-    max-width: 940px;
-    max-height: 768px;
+    width: 940px;
+    height: 658px;
     margin: 0 auto;
-
-    
 }
 
 
