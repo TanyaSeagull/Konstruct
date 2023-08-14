@@ -14,6 +14,10 @@ body {
   font-family: "Open Sans", sans-serif, sans-serif;
   font-weight: 400; }
 
+.container {
+  width: 940px;
+  margin: 0 auto; }
+
 .header {
   background-image: url(../img/header-bg.jpg);
   background-size: cover;
@@ -57,7 +61,26 @@ body {
     line-height: 13px;
     padding-bottom: 72px; }
 
-.container {
-  width: 940px;
-  height: 658px;
+.navbar {
+  max-width: 1440px;
   margin: 0 auto; }
+  .navbar__flex {
+    display: flex;
+    justify-content: space-between; }
+  .navbar__menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 21px 0; }
+  .navbar__menu-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    width: 409px; }
+  .navbar__menu-item {
+    color: #48555B;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.091px; }

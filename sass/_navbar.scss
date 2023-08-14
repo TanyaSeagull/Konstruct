@@ -1,0 +1,35 @@
+.navbar {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__menu {
+        display: flex;
+        flex-wrap: wrap;
+        
+        padding: 21px 0;
+    }
+
+    &__menu-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style: none;
+        width: 409px;
+    }
+    
+    &__menu-item {
+        color: $color-dark-grey;
+        text-decoration: none;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1.091px;
+
+        
+    }
+}
