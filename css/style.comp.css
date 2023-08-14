@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif, sans-serif;
+  font-weight: 400; }
+
+.container {
+  max-width: 940px;
+  margin: 0 auto; }
+
+.header {
+  background-image: url(../img/header-bg.jpg);
+  max-width: 1440px;
+  max-height: 768px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.container {
+  max-width: 940px;
+  margin: 0 auto; }
+  .container__logo {
+    display: flex;
+    padding: 40px 0 309px; }
+  .container__h1 {
+    color: #FFFFFF;
+    font-weight: 400px;
+    font-size: 60px;
+    font-family: "BebasNeue Bold";
+    text-align: center;
+    text-transform: uppercase; }
