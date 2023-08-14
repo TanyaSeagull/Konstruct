@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding: 23px 0 20px 0;
     border: 1px solid $color-light-grey;
-
+    
     &__flex {
         display: flex;
         justify-content: space-between;
@@ -31,9 +31,12 @@
         text-transform: uppercase;
         font-weight: 600;
         letter-spacing: 1.091px;
+        cursor: pointer;
+
+        &:hover {
+            color: $color-dark-blue;
+        }
     }
 
-    &__menu-item--active {
-        color: $color-dark-blue;
-    }
+    
 }
