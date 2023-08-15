@@ -1,6 +1,7 @@
 .about {
     margin: 0 auto;
     max-width: 1440px;
+    max-height: 341.75px;
 
     &__story {
         margin: 59px auto 119px;
@@ -23,6 +24,7 @@
     &__flex {
         display: flex;
         justify-content: space-between;
+        
     }
 
     &__left {
@@ -35,10 +37,40 @@
         gap: 20px;
         padding-top: 29px;
 
-        &__h4 {
-            font-size: 24px;
-            
-        }
+    }
+
+    &__h3-text {
+        padding-bottom: 31px;
+        font-size: 20px;
+        line-height: 26.44px;
+        letter-spacing: 0.187px;
+        color: #48555B;
+    }
+
+    &__h3-color {
+        color: #16ACE8;
+    }
+
+    &__h4-1 {
+        background-image: url(../img/h4-1.jpg);
+        background-repeat: no-repeat;
+    }
+
+    &__h4-2 {
+        background-image: url(../img/h4-2.jpg);
+        background-repeat: no-repeat;
+    }
+
+    &__h4-3 {
+        background-image: url(../img/h4-3.jpg);
+        background-repeat: no-repeat;
+    }
+
+    &__p-text {
+        font-size: 13px;
+        line-height: 23px;
+        letter-spacing: 0.1875PX;
+        color: #48555B;
     }
 }
 
@@ -49,7 +81,7 @@
 }
 
 .h4 {
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.1875px;

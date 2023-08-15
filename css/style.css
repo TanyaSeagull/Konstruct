@@ -1,6 +1,7 @@
 .about {
   margin: 0 auto;
-  max-width: 1440px; }
+  max-width: 1440px;
+  max-height: 341.75px; }
   .about__story {
     margin: 59px auto 119px; }
   .about__headline {
@@ -23,8 +24,28 @@
     grid-template-columns: repeat(3, 140px);
     gap: 20px;
     padding-top: 29px; }
-    .about__right__h4 {
-      font-size: 24px; }
+  .about__h3-text {
+    padding-bottom: 31px;
+    font-size: 20px;
+    line-height: 26.44px;
+    letter-spacing: 0.187px;
+    color: #48555B; }
+  .about__h3-color {
+    color: #16ACE8; }
+  .about__h4-1 {
+    background-image: url(../img/h4-1.jpg);
+    background-repeat: no-repeat; }
+  .about__h4-2 {
+    background-image: url(../img/h4-2.jpg);
+    background-repeat: no-repeat; }
+  .about__h4-3 {
+    background-image: url(../img/h4-3.jpg);
+    background-repeat: no-repeat; }
+  .about__p-text {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875PX;
+    color: #48555B; }
 
 .line {
   width: 50px;
