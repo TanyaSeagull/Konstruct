@@ -1,0 +1,78 @@
+.services {
+    margin: 0 auto;
+    max-width: 1440px;
+
+    &__flex-box {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 76px;
+    }
+
+    &__headline {
+        margin-right: 122px;
+    }
+
+    &__text {
+        max-width: 405.4px;
+        font-size: 11px;
+        line-height: 19px;
+        letter-spacing: 0.2px;
+        color: $color-dark-grey;
+    }
+
+    &__h2-text {
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 2.30625px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $color-dark-grey;
+    }
+
+    &__button {
+        width: 150px;
+        height: 40px;
+        background-color: $color-dark-blue;
+        color: $color-primary;
+        font-size: 13px;
+        line-height: 15PX;
+        text-align: center;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: none;
+    }
+
+    &__grid-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 28px;
+        padding-bottom: 115px;
+    }
+
+    &__items {
+        border: 1px solid #E6E6E6;
+        padding: 37px 21px 0 22px;
+    }
+
+    &__icon {
+        margin-bottom: 20px;
+    }
+
+    &__items_headline {
+        font-size: 16px;
+        line-height: 24px;  
+        letter-spacing: 0.4266px;
+        text-transform: uppercase;
+        color: $color-dark-grey;
+    }
+
+    &__p-text {
+        margin: 14px 0 37px;
+        padding: 0;
+        font-size: 13px;
+        line-height: 23px;
+        letter-spacing: 0.1875px;
+        color: $color-dark-grey;
+    }
+}
