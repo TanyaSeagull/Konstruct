@@ -1,0 +1,29 @@
+.request {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    min-height: 498px;
+    max-width: 1440px;
+    margin-top: 0 auto;
+
+    &__box {
+        max-width: 350px;
+        margin: 0 auto 231px;
+        padding-top: 120px;
+    }
+
+    &__headline {
+        font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: $color-dark-grey;
+    padding-bottom: 35px;
+    }
+
+    &__button {
+        margin: 0 auto;
+        display: block;
+    }
+}

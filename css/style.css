@@ -81,6 +81,20 @@ body {
   max-width: 940px;
   margin: 0 auto; }
 
+.button {
+  width: 150px;
+  height: 40px;
+  background-color: #00A4E5;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  border: none;
+  text-transform: uppercase;
+  padding-top: 4px;
+  cursor: pointer; }
+
 .header {
   background-image: url(../img/header-bg.jpg);
   background-size: cover;
@@ -153,6 +167,29 @@ body {
     .navbar__menu-item:hover {
       color: #00A4E5; }
 
+.request {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  min-height: 498px;
+  max-width: 1440px;
+  margin-top: 0 auto; }
+  .request__box {
+    max-width: 350px;
+    margin: 0 auto 231px;
+    padding-top: 120px; }
+  .request__headline {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #48555B;
+    padding-bottom: 35px; }
+  .request__button {
+    margin: 0 auto;
+    display: block; }
+
 .services {
   margin: 0 auto;
   max-width: 1440px; }
@@ -175,18 +212,6 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     color: #48555B; }
-  .services__button {
-    width: 150px;
-    height: 40px;
-    background-color: #00A4E5;
-    color: #FFFFFF;
-    font-size: 13px;
-    line-height: 15PX;
-    text-align: center;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    cursor: pointer;
-    border: none; }
   .services__grid-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

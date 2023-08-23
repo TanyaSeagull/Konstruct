@@ -29,20 +29,7 @@
         color: $color-dark-grey;
     }
 
-    &__button {
-        width: 150px;
-        height: 40px;
-        background-color: $color-dark-blue;
-        color: $color-primary;
-        font-size: 13px;
-        line-height: 15PX;
-        text-align: center;
-        letter-spacing: 0.5px;
-        text-transform: uppercase;
-        cursor: pointer;
-        border: none;
-    }
-
+    
     &__grid-box {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

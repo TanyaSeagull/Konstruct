@@ -32,3 +32,18 @@ body {
     max-width: 940px;
     margin: 0 auto;
 }
+
+.button {
+    width: 150px;
+    height: 40px;
+    background-color: $color-dark-blue;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: $color-primary;
+    border: none;
+    text-transform: uppercase;
+    padding-top: 4px;
+    cursor: pointer;
+}
