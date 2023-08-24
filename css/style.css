@@ -181,12 +181,13 @@ body {
     padding-top: 6px;
     padding-left: 2px; }
   .newsletter__headline {
-    font-size: 22px;
+    font-size: 20px;
+    font-style: normal;
     line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.846154px;
+    letter-spacing: 0.846px;
     color: #FFFFFF;
-    padding-right: 70px; }
+    padding-right: 70px;
+    text-align: center; }
   .newsletter__input-area {
     width: 249px;
     height: 40px;

@@ -17,12 +17,13 @@
     }
 
     &__headline {
-        font-size: 22px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.846154px;
-    color: $color-primary;
-    padding-right: 70px;
+        font-size: 20px;
+        font-style: normal;
+        line-height: 26px;
+        letter-spacing: 0.846px;
+        color: $color-primary;
+        padding-right: 70px;
+        text-align: center;
     }
 
     &__input-area {
