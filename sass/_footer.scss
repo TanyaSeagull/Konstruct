@@ -121,4 +121,18 @@
     .twitter-icon {
         margin-right: 19px;
     }
+
+    &__copyright {
+        background-color: #171819;
+    }
+
+    &__copyright-text {
+        text-align: center;
+        font-size: 11px;
+        line-height: 13px;
+        letter-spacing: 0.846154px;
+        color: $color-primary;
+        padding: 22px 0 24px;
+        margin-left: 10px;
+    }
 }

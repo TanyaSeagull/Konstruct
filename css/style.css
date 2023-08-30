@@ -181,6 +181,16 @@ body {
     margin: 0 21px 0 13px; }
   .footer .twitter-icon {
     margin-right: 19px; }
+  .footer__copyright {
+    background-color: #171819; }
+  .footer__copyright-text {
+    text-align: center;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    padding: 22px 0 24px;
+    margin-left: 10px; }
 
 .header {
   background-image: url(../img/header-bg.jpg);
@@ -257,19 +267,20 @@ body {
 .newsletter {
   background-color: #171819;
   margin: 0 auto;
-  max-width: 1440px; }
+  max-width: 1440px;
+  max-height: 100.5px; }
   .newsletter__flex {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     padding: 30px 0;
-    max-width: 690px; }
+    max-width: 690px;
+    max-height: 40.5px; }
   .newsletter__headline-box {
     padding-top: 6px;
     padding-left: 2px; }
   .newsletter__headline {
     font-size: 20px;
-    font-style: normal;
     line-height: 26px;
     letter-spacing: 0.846px;
     color: #FFFFFF;
