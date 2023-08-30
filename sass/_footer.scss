@@ -1,0 +1,54 @@
+.footer {
+    background-color: #141A20;
+    margin: 0 auto;
+    max-width: 1440px;
+    color: $color-primary;
+
+    &__flex {
+        display: flex;
+        padding: 42px 0 50px;
+    }
+
+    &__company {
+        max-width: 250px;
+    }
+
+    &__h5 {
+        margin-bottom: 19px;
+    }
+
+    &__company-logo {
+        margin-bottom: 15px;
+    }
+
+    &__company-text {
+        font-size: 13px;
+        line-height: 23px;
+        align-items: center;
+        letter-spacing: 0.188px;
+        
+    }
+
+    &__links-flex-box {
+        display: flex;
+    }
+
+    &__links-box-1 {
+        min-width: 76px;
+        margin-right: 34px;
+        padding-top: 11px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    &__link {
+        color: $color-primary;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 11px;
+        line-height: 25px;
+        letter-spacing: 0.846px;
+    }
+}

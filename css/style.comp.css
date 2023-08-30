@@ -95,6 +95,26 @@ body {
   padding-top: 4px;
   cursor: pointer; }
 
+.h5 {
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.85px;
+  color: #FFFFFF;
+  text-transform: uppercase; }
+
+.footer {
+  background-color: #141A20;
+  margin: 0 auto;
+  max-width: 1440px; }
+  .footer__flex {
+    display: flex;
+    padding: 42px 0 50px; }
+  .footer__company {
+    max-width: 250px;
+    margin-right: 71px; }
+  .footer__headline-1 {
+    margin-bottom: 19px; }
+
 .header {
   background-image: url(../img/header-bg.jpg);
   background-size: cover;
@@ -181,12 +201,13 @@ body {
     padding-top: 6px;
     padding-left: 2px; }
   .newsletter__headline {
-    font-size: 22px;
+    font-size: 20px;
+    font-style: normal;
     line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.846154px;
+    letter-spacing: 0.846px;
     color: #FFFFFF;
-    padding-right: 70px; }
+    padding-right: 70px;
+    text-align: center; }
   .newsletter__input-area {
     width: 249px;
     height: 40px;

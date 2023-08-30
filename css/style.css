@@ -95,6 +95,48 @@ body {
   padding-top: 4px;
   cursor: pointer; }
 
+.h5 {
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.85px;
+  color: #FFFFFF;
+  text-transform: uppercase; }
+
+.footer {
+  background-color: #141A20;
+  margin: 0 auto;
+  max-width: 1440px;
+  color: #FFFFFF; }
+  .footer__flex {
+    display: flex;
+    padding: 42px 0 50px; }
+  .footer__company {
+    max-width: 250px; }
+  .footer__h5 {
+    margin-bottom: 19px; }
+  .footer__company-logo {
+    margin-bottom: 15px; }
+  .footer__company-text {
+    font-size: 13px;
+    line-height: 23px;
+    align-items: center;
+    letter-spacing: 0.188px; }
+  .footer__links-flex-box {
+    display: flex; }
+  .footer__links-box-1 {
+    min-width: 76px;
+    margin-right: 34px;
+    padding-top: 11px; }
+  .footer ul {
+    list-style: none; }
+  .footer__link {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846px; }
+
 .header {
   background-image: url(../img/header-bg.jpg);
   background-size: cover;
