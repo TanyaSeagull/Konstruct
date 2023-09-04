@@ -7,6 +7,10 @@
     &__flex {
         display: flex;
         justify-content: space-between;
+
+        @media screen and (max-width: 940px) {
+            justify-content: space-around;
+        }
     }
 
     &__menu {

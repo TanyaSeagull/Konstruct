@@ -7,15 +7,30 @@
     &__flex {
         display: flex;
         padding: 42px 0 50px;
+
+        @media screen and (max-width: 940px) {
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+        }
     }
 
     &__company {
         max-width: 250px;
+
+        @media screen and (max-width: 940px) {
+            margin: 0 30px 30px 30px;
+        }
     }
 
     &__links {
         max-width: 262px;
         margin-right: 58px;
+
+        @media screen and (max-width: 940px) {
+            margin: 0 30px 30px 30px;
+        }
     }
 
     &__h5 {
@@ -102,6 +117,10 @@
 
     &__socials {
         max-width: 102px;
+
+        @media screen and (max-width: 940px) {
+            margin-right: 40px;
+        }
     }
 
     a {
@@ -110,16 +129,16 @@
 
     &__socials-icon {
         padding: 29px 0;
-        text-decoration: none;
     }
 
     .facebook-icon {
         margin: 0 21px 0 13px;
-        
+        text-decoration: none;
     }
 
     .twitter-icon {
         margin-right: 19px;
+        text-decoration: none;
     }
 
     &__copyright {

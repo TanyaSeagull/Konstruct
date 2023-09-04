@@ -6,10 +6,25 @@
         display: flex;
         justify-content: space-between;
         padding-bottom: 76px;
+
+        @media only screen and (max-width: 940px) {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
     &__headline {
-        margin-right: 122px;
+        
+        @media only screen and (max-width: 940px) {
+            text-align: center;
+        }        
+    }
+
+    &__line {
+        @media only screen and (max-width: 940px) {
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
     }
 
     &__text {
@@ -18,15 +33,22 @@
         line-height: 19px;
         letter-spacing: 0.2px;
         color: $color-dark-grey;
+
+        @media only screen and (max-width: 940px) {
+            text-align: center;
+            margin-bottom: 20px;
+        }
     }
 
     &__h2-text {
+        text-align: center;
         font-size: 18px;
         line-height: 21px;
         letter-spacing: 2.30625px;
         text-transform: uppercase;
         font-weight: bold;
         color: $color-dark-grey;
+        margin-bottom: 10px;
     }
 
     
@@ -35,11 +57,21 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 28px;
         padding-bottom: 115px;
+
+        @media only screen and (max-width: 940px) {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+        }
     }
 
     &__items {
         border: 1px solid #E6E6E6;
         padding: 37px 21px 0 22px;
+
+        @media only screen and (max-width: 940px) {
+            padding: 15px 22px 15px 23px;
+            text-align: center;
+        }
     }
 
     &__icon {

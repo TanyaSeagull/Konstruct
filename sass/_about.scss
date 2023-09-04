@@ -1,7 +1,7 @@
 .about {
     margin: 0 auto;
     max-width: 1440px;
-    max-height: 341.75px;
+    
 
     &__story {
         margin: 59px auto 119px;
@@ -15,20 +15,29 @@
         text-transform: uppercase;
         font-weight: bold;
         color: #48555B;
+        margin-bottom: 10px;
     }
 
     &__line {
-        margin: 12px auto 55px;
+        width: 50px;
+        height: 2px;
+        background-color: #00A4E5;
+        margin: 0 auto 55px;
     }
 
     &__flex {
         display: flex;
         justify-content: space-between;
-        
+
+        @media only screen and (max-width: 940px) {
+            flex-direction: column;
+            margin: 0 auto 30px;
+            align-items: center;
+        }
     }
 
     &__left {
-        max-width: 405.08px;
+        max-width: 398px;
     }
 
     &__right {
@@ -37,6 +46,9 @@
         gap: 20px;
         padding-top: 29px;
 
+        @media only screen and (max-width: 940px) {
+            gap: 15px;
+        }
     }
 
     &__h3-text {
@@ -45,6 +57,11 @@
         line-height: 26.44px;
         letter-spacing: 0.187px;
         color: #48555B;
+
+        @media only screen and (max-width: 940px) {
+            text-align: center;
+            padding-bottom: 20px;
+        }
     }
 
     &__h3-color {
@@ -71,6 +88,11 @@
         line-height: 23px;
         letter-spacing: 0.1875PX;
         color: #48555B;
+
+        @media only screen and (max-width: 940px) {
+            text-align: center;
+            padding-bottom: 20px;
+        }
     }
 }
 
