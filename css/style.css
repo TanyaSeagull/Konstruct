@@ -1,6 +1,7 @@
 .about {
   margin: 0 auto;
-  max-width: 1440px; }
+  max-width: 1440px;
+  width: 100%; }
   .about__story {
     margin: 59px auto 119px; }
   .about__headline {
@@ -34,6 +35,7 @@
     padding-top: 29px; }
     @media only screen and (max-width: 940px) {
       .about__right {
+        grid-template-columns: repeat(1, 140px);
         gap: 15px; } }
   .about__h3-text {
     padding-bottom: 31px;
